@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: auto;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 20px;
+  border-bottom: 1px solid #3cdfce;
+}
+
+.header__logo {
+  width: 50px;
+  height: 50px;
+}
+
+.main {
+  padding: 30px;
+}
